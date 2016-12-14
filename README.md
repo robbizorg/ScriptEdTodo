@@ -16,3 +16,29 @@ Hints: Even if you don't think you're not going to have enough time to make it t
 
  - Can Edit and Delete Individual Items (If you do this, you've built a CRUD App!)
  - Hard Challenge: Display Items depending on whether or not they're completed (If you do this, I'd give you Bonus Points if I could)
+
+####Some Useful JavaScript Hints
+
+  var x = 5; // Declaring a variable in JavaScript
+  
+  var array = ["some", "awesome", "stuff"]; // Making an Array
+  
+  // What does this code do?
+  
+  var array = [“hello”, “world”, “and”, “anyone”, “else”];
+  
+  var html = [];
+
+  for (var i = 0; i < array.length; i++) {
+	
+    var newItem = “<p>” + array[i] + “</p>”;
+	  
+    html.push(newItem);
+  
+  }
+  
+  console.log(html); // What will I print?
+  
+  html = [];
+  
+  console.log(html); // How about now?
